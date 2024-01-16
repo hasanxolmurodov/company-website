@@ -1,0 +1,618 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*navh*/
+.h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    position: sticky;
+    top: 0;
+}
+.hh{
+    margin-left: 48px;
+    height: 49px;
+    width: 60px;
+    list-style: none;
+}
+.hh img{
+    width: 48px;
+    height: 48px;
+}
+.hhh{
+    margin-left: 412px;
+    margin-right: 25px;
+    align-items: center;
+    width: 800px;
+    height: 49px;
+    color: white;
+}
+.hhh ul{
+    display: flex;
+    list-style: none;
+    margin: 10px 10px;
+}
+.hhh ul li{
+    margin-top: 5px;
+    font-family: century;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.hhh ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    padding: 5px 5px;
+}
+.hhh ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px rgba(0, 255, 221, 0.9),0 0 10px white ,0 0 15px rgba(0, 255, 221, 0.9);
+}
+.hh img:hover{
+    box-shadow: 0 0 5px rgba(0, 255, 221, 0.9),0 0 10px white ,0 0 15px rgba(0, 255, 221, 0.9);
+}
+/*Asosiy section*/
+#asosiy{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.asosiy1{
+    font-family: sans-serif; 
+    display: flex;
+    margin: 35px;
+    width: 1265px;
+    height: 552px;
+}
+.home{
+    width: 620px;
+    height: 550px;
+}
+.home h1{
+    margin: 15px;
+    color: white;
+    font-size: 2rem;
+}
+.home h2{
+    margin: 10px;
+    color: white;
+    font-size: 4.9rem;
+}
+.home h3{
+    margin: 10px;
+    color: yellow;
+    font-size: 4.9rem;
+}
+.home p{
+    margin: 15px;
+    width: 400px;
+    color: white;
+    font-size: 1rem;
+}
+.btn{
+    background-color: white;
+    color: black;
+    width: 260px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 1px solid white;
+    margin: 15px;
+}
+.homerasm img{
+    width: 650px;
+    height: 360px;
+    margin: 5px;
+}
+.myslides{
+    display: none;
+}
+img{
+    vertical-align: middle;
+}
+.slideshow-container{
+    margin: 10px;
+}
+.prev{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    margin-left: 560px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+} .next{
+    cursor: pointer;
+    position: absolute;
+    margin-right: 70px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover ,.next:hover{
+    background-color: rgba(0, 255, 242, 0.698);
+    box-shadow: 0 0 5px white,0 0 10px rgba(0, 255, 242, 0.698),0 0 15px white;
+}
+.text{
+    color: #f2f2f2;
+    font-size: 15px;
+    text-align: center;
+}
+.numbertext{
+    color:blue;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: white;
+    position: absolute;
+}
+
+.rasmmatn1{
+    width: 630px;
+    height: 85px;
+    margin: 5px;
+   
+}
+.rasmmatn1 p{
+    margin-top: 60px;
+    margin-left: 528px;
+    width: 130px;
+    height: 30px;
+    color: white;
+    font-size: 0.7rem;
+}
+/*Xizmatlar*/
+#xizmatlar{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: black;
+}
+#intro7{
+    color: white;
+    margin-bottom: 30px;
+}
+#intro7 h2{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+#intro7 h1{
+     color:rgb(218, 218, 30);
+     font-size: 1rem;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.box{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 613px;
+    height: 610px;
+    border: 1px solid black;
+    margin: 5px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.3);
+    background: linear-gradient(to top,rgb(255,45,45) 50%,rgba(0,0,0,0.3) 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: rgba(9, 255, 0, 0.911);
+    border: none;
+    box-shadow: 0 0 20px rgb(255,45,45);
+}
+.box img{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    margin: 10px;
+}
+/*Ish tartibi*/
+#ishtartibi{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: black;
+    padding: 50px;
+    margin-bottom: 1px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.box1{
+    color: white;
+    display: flex;
+    flex-direction: unset;
+    width: 600px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.3);
+ 
+}
+.box1 img{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    margin: 20px;
+}
+/*Murojaat section*/
+#murojaat{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: yellow;
+    padding: 20px;
+    margin-bottom: 1px;
+}
+#pic2{
+    display: flex;
+}
+#pic2 img{
+    margin: 40px;
+    width: 400px;
+    height: 400px;
+}
+#intro2{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 35px;
+    padding: 10px;
+}
+#intro2 h2{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#intro2 p{
+    margin: 5px;
+}
+input[type="text" i] {
+    padding: 10px;
+    margin: 5px;
+    align-items: flex-start;
+    text-align: center;
+    width: 170px;
+    height: 30px;
+    box-sizing: border-box;
+    background-color:white;
+    color: rgba(0,0,0,0.7);
+    border-color:white;
+}
+input[type="button" i] {
+    align-items: flex-start;
+    text-align: center;
+    cursor: pointer;
+    width: 170px;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+/*Biz haqimizda section*/
+#haqimizda{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 1px;
+}
+#intro3{
+    margin: 50px;
+    color: white;
+}
+#intro3 h2{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+#intro3 h1{
+     color:rgb(218, 218, 30);
+     font-size: 1rem;
+}
+.quti{
+    display: flex;
+    margin: 40px;
+    width: 1230px;
+    height: 620px;
+}
+.quti1{
+    width: 600px;
+    height: 600px;
+    margin: 10px;
+}
+.quti1 img{
+    width: 290px;
+    height: 290px;
+    margin: 2px;
+}
+.quti2{
+    width: 600px;
+    height: 600px;
+    margin: 10px;
+}
+.quti3{
+    display: flex;
+    margin: 3px;
+    width: 580px;
+    height: 144px;
+}
+.quti3 img{
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+.quti4{
+    width: 620px;
+    margin: 10px;
+}
+.txt{
+    font-size: 1.5rem;
+    width: 400px;
+    height: 35px;
+    color: white;
+    margin: 5px;
+}
+.txt1{
+    margin: 5px;
+    width: 400px;
+    height: 70px;
+    color: white;
+}
+/*Bizning jamoa section*/
+#jamoa{
+    display: flex;
+    box-sizing: border-box;
+    background-color: black;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 1px;
+}
+#intro4{
+    margin: 50px;
+    color: white;
+}
+#intro4 h2{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+#intro4 h1{
+     color:rgb(218, 218, 30);
+     font-size: 1rem;
+}
+.qator{
+    display: flex;
+}
+.rasmbox{
+    margin: 40px;
+    width: 1236px;
+    height: 508px;
+}
+.jamoarasm{
+    margin: 5px;
+    width: 196px;
+    height: 265px;
+    border: 1px solid white;
+    background-color: white;
+}
+.jamoarasm img{
+    width: 98px;
+    height: 98px;
+}
+.jamoakontakt ul{
+    display: flex;
+    margin: 22px;
+}
+.jamoaism h1{
+    font-size: 1.1rem;
+    margin: 10px;
+}
+.jamoaism p{
+    font-size: 0.7rem;
+    margin: 5px;
+
+}
+.jamoakontakt ul  img{
+    background-color: rgba(255, 255, 78,0.7);
+    width: 30px;
+    height: 30px;
+    margin: 6px;
+
+}
+.jamoaism{
+    width: 173px;
+    height:132px;
+    margin: 10px;
+}
+.rasmjadval{
+    display: flex;
+}
+.jamoarasm:hover{
+    color: white;
+    background-color: rgba(0, 255, 221, 0.9);
+    border-radius: 4px;
+    box-shadow: 0 0 5px white,0 0 10px rgba(0, 255, 221, 0.9),0 0 15px white;
+}
+.jamoakontakt ul img:hover{
+    background-color: white;
+}
+/*Bizning loyiha section*/
+#loyiha{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Montserrat;
+    padding: 20px;
+    margin-bottom: 1px;
+}
+#intro5{
+    margin: 50px;
+    color: white;
+}
+#intro5 h2{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+#intro5 h1{
+     color:rgb(218, 218, 30);
+     font-size: 1rem;
+}
+.qator1{
+    display: flex;
+}
+.loyiha1{
+    margin: 40px;
+    width: 1242px;
+    height: 987px;
+}
+.loyiha2{
+    margin: 5px;
+    width: 610px;
+    height: 482px;  
+}
+.loyiha2 h1{
+    margin: 5px;
+    font-size: 1rem;
+    color: white;
+}
+.loyiha2 img{
+    margin: 5px;
+    width: 596px;
+    height: 440px;
+}
+.loyiha3{
+    display: flex;
+}
+/*navhx*/
+.hx{
+    display: flex;
+    background-color:rgba(0,0,0,0.7);
+    color: white;
+    top: 0;
+}
+.hhx{
+    margin:10px 30px 5px 30px;
+    height: 150px;
+    width: 150px;
+}
+.hhx h1{
+    margin:0px 0px 10px 20px;
+    font-size: 0.6rem;
+}
+.hhx h2{
+    font-size: 0.75rem;
+    margin:50px 0px 0px 20px;
+}
+.hhx img{
+    margin:0px 30px 0px 20px;
+    width: 70px;
+    height: 70px;
+}
+.hhhx{
+    height: 100px;
+    width: 150px;
+    border: 1px solid white;
+    margin: 10px ;
+}
+.hhhx h1{
+    margin: 0px 0px 45px 30px;
+    font-size: 1rem;
+}
+.hhxx{
+    margin: 0px 0px 0px 19px;
+}
+.hhxx img{
+       width: 25px;
+       height: 25px;
+       border: 1px solid white;
+       margin: 5px;
+}
+.hxx{
+    height: 100px;
+    width: 150px;
+    border: 1px solid white;
+    margin: 10px;
+}
+.hxx h1{
+    font-size: 1rem;
+    margin: 0px 0px 52px 40px;
+}
+.hxx p{
+    font-size: 1rem;
+    margin: 5px 0px 5px 10px;
+}
+.hxu{
+    height: 100px;
+    width: 150px;
+    border: 1px solid white;
+    margin-right: 100px;
+    margin: 10px;
+}
+.hxu h1{
+    font-size: 1rem;
+    margin: 0px 0px 47px 20px;
+}
+.telrasm{
+    display: flex;
+}
+.telrasm img{
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+}
+.telrasm p{
+    font-size: 0.9rem;
+   margin: 7px 0px 5px 5px;
+}
+.belgi{
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-left: 470px;
+    margin-right: 25px;
+    align-items: center;
+}
